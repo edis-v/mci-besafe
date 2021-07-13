@@ -19,7 +19,7 @@ module.exports = {
       this.$router.go(-1)
     },
     canGoBack () {
-      return this.$route.path.includes('/news/')
+      return this.$route.path.includes('/news/') || this.$route.path.includes('/scannen/')
     }
   }
 }

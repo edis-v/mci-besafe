@@ -6,14 +6,14 @@
           <p class="mb-6">
             Wählen Sie diese Funktion, wenn Sie einen Laden besuchen und den zugehörigen QR-Code scannen möchten.
           </p>
-          <input id="myFileInput" type="file" accept="image/*;capture=camera">
+          <nuxt-link to="/scannen/laden" class="bg-blue-600 text-white px-4 py-2 text-center w-full text-xs sm:text-sm uppercase">Jetzt Scannen</nuxt-link>
       </div>
     <div class="shadow-lg p-4 mb-4">
           <h2 class="mb-4">Dokument hinzufügen</h2>
           <p class="mb-6">
             Wählen Sie diese Funktion, wenn Sie ein neues Corona Dokument hinterlegen und den zugehörigen QR-Code scannen möchten.
           </p>
-          <input id="myFileInput" type="file" accept="image/*;capture=camera">
+          <nuxt-link to="/scannen/dokument" class="bg-blue-600 text-white px-4 py-2 text-center w-full text-xs sm:text-sm uppercase">Jetzt Scannen</nuxt-link>
       </div>
   </div>
 </template>
