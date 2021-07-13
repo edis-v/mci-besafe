@@ -10,12 +10,13 @@
       Kontakte
     </a>
   </div>
+  <MyDialog v-if="showDialog"/>
   <div class="p-6 container mx-auto md:px-24" style="max-width: 900px">
       <h1 class="mb-4">Eigenes Infektionsrisiko</h1>
         <div class="border-solid border-2 border-red-400 rounded-md px-4 py-4 inline-block mb-8">
           <h2 class="text-red-400 font-bold mb-2">Potentiell infiziert</h2>
           <p class="text-xs sm:text-sm mb-4">Sie waren, soweit wir das sagen können, in den letzten 14 Tagen in Kontakt mit jemanden, der potentiell infiziert ist</p>
-          <a href="#" class="bg-red-400 text-white px-4 py-2 text-center w-full text-xs sm:text-sm">INFEKTION MELDEN</a>
+          <a href="#" @click="showDialog = true" class="bg-red-400 text-white px-4 py-2 text-center w-full text-xs sm:text-sm">INFEKTION MELDEN</a>
         </div>
         <div class="shadow-md mb-8">
             <div class="tab w-full overflow-hidden border-t">
@@ -46,7 +47,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      showDialog: false
+    }
+  }
+}
 </script>
 
 <style lang="postcss" scoped>
