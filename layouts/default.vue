@@ -1,5 +1,6 @@
 <template>
   <div class="antialiased">
+    <Wizard />
     <Header />
     <main id="main" class="flex-1" role="main">
       <nuxt />
