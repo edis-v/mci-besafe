@@ -22,21 +22,24 @@
                <input class="absolute opacity-0" id="tab-single-one" type="radio" name="tabs2">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-single-one">Allgemein</label>
                <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-                  <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                  <p class="p-5">Die Zahl der täglichen Corona-Neuinfektionen liegt auf einem niedrigen Niveau. Dennoch gilt es weiterhin, vorsichtig zu bleiben. Zugleich sind bereits mehr als 48 Millionen Menschen mindestens einmal gegen das Coronavirus geimpft. Hier finden Sie aktuelle Kennziffern, Informationen in weiteren Sprachen sowie eine Übersicht, wie die Bundesregierung in der Corona-Pandemie vorgeht.</p>
                </div>
             </div>
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-single-two" type="radio" name="tabs2">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-single-two">Elternteil</label>
                <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-                  <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                  <p class="p-5">In den Kindertageseinrichtungen und Kindertagespflegestellen kann ein eingeschränkter Regelbetrieb stattfinden. Das bedeutet, alle Kinder können ihre Kita besuchen. Die Kinder müssen jedoch in festen Gruppen betreut werden. Eine Betreuung ist im (eingeschränkten) Regelbetrieb stets nur unter den folgenden Voraussetzungen möglich:</p>
+                  <p class="p-5">Das Kind weist keine Symptome einer akuten, übertragbaren Krankheit auf.</p>
+                  <p class="p-5">Das Kind wurde nicht positiv auf eine Coronavirus-Infektion getestet und gilt auch nicht als Verdachtsperson oder enge Kontaktperson im Sinne der AV Isolation und steht deshalb unter Quarantäne.</p>
+                  <p class="p-5">Das Kind unterliegt keiner sonstigen Quarantänemaßnahme (z.B. nach der Coronavirus-Einreiseverordnung des Bundes).</p>
                </div>
             </div>
             <div class="tab w-full overflow-hidden border-t">
                <input class="absolute opacity-0" id="tab-single-three" type="radio" name="tabs2">
                <label class="block p-5 leading-normal cursor-pointer" for="tab-single-three">Nutzung von öffentlichen Verkehrsmitteln</label>
                <div class="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-                  <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                  <p class="p-5">Die Corona-Pandemie war für den ÖPNV auf mehrfache Weise ein Rückschlag. Zuerst mieden viele Gäste Bus und Bahn, um das Risiko einer Infektion zu minimieren. In den vergangenen Monaten kündigen nun immer mehr Abonnenten nach Angaben der Verkehrsverbünde. Viele Menschen wollen künftig häufiger im Homeoffice arbeiten und sind nicht täglich auf den ÖPNV angewiesen. „Wenn die Leute nicht mehr fünf Tage die Woche ins Büro fahren, wollen sie auch nicht für jeden Tag ein Abo bezahlen“, sagte NRW-Verkehrsminister Hendrik Wüst (CDU). Die Fahrgastauslastung des ÖPNV in NRW liegt aktuell bei 60 bis 65 Prozent der Auslastung vor der Pandemie. Um Kunden zurückzugewinnen, starten das NRW-Verkehrsministerium und die Verkehrsunternehmen eine landesweite Kampagne.</p>
                </div>
             </div>
       </div>
